@@ -15,15 +15,16 @@ body{
 }
 /* header bg color */
 header{
-    background-color: lightblue;
+    background-color: lightcoral;
 }
 
 /* main bg color */
 main{
-    background-color: orangered;
+    background-color: lightblue;
+    /* make main element take up any surplus space to push the footer down */
     flex: 1 0 auto;
 }
 /* footer bg color */
 footer{
-    background-color: green;
+    background-color: orange;
 }
