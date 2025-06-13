@@ -19,7 +19,7 @@ body{
 /* header bg color */
 header{
     background-color: #ffffff;
-    padding: 0 1rem;
+    padding: 0 1em;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -42,12 +42,26 @@ h1{
     letter-spacing: 4px;
     list-style-type: none;
 }
+
+/* targets direct children of the menu id to space them out vertically */
 #menu > li{
     margin-bottom: 1em;
 }
 
+/* let user know what page is active */
 .active{
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with nav bar toggle */
+nav{
+    position: absolute;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    /* display: none; */
 }
 
 
