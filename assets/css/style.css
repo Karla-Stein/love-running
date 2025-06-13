@@ -24,6 +24,9 @@ header{
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
  
 header a{
@@ -61,10 +64,25 @@ nav{
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
-    /* display: none; */
+    display: none;
+    /* top tells the element to allow 100% of its sibling above.
+    so it will add itself to the very bottom of that element */
+    top: 100%;
 }
 
+/* nav toggle; indictes we want to target the sibling nav element*/
+#nav-toggle:checked~nav{
+    display: block;
+}
 
+/* hides checkbox */
+#nav-toggle{
+    display: none;
+}
+
+.nav-toggle-label{
+    font-size: 2rem;
+}
 /* main bg color */
 main{
     background-color: lightblue;
