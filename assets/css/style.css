@@ -116,6 +116,15 @@ main{
 #cover-text > h2, #cover-text > h3{
     color: #ffffff;
 }
+
+#reasons{
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons > h2{
+    margin-bottom: 20px;
+}
 /* footer */
 #social-networks{ 
     text-align: center;
