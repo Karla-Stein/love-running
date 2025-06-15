@@ -156,6 +156,13 @@ main{
     max-height: 300px;
 }
 
+/* centers image on landscape */
+#benefits-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* footer */
 #social-networks{ 
     text-align: center;
