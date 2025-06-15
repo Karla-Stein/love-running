@@ -244,3 +244,35 @@ main{
     }
  
 }
+
+/* Query for screens from 1200px */
+/* Reasons section */
+@media screen and (min-width: 1200px){
+    #benefits{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    /* ensure each div occupies same width */
+    #benefits > div{
+        flex: 1;
+    }
+    /* moves image before mental div */
+    #benefits-image{
+        order: 0;
+    }
+
+    #benefits-mental{
+        order: 1;
+    }
+    /* moves mental further left toward the image */
+    #benefits-mental > div{
+        align-self: flex-start;
+    }
+
+     /* moves physical further right toward the image */
+    #benefits-physical > div{
+        align-self: flex-end;
+
+    }
+}
