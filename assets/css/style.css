@@ -143,6 +143,18 @@ main{
     margin: 5px 0;
 }
 
+#circle-cover-bg{
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    /* need same heights and width to prepare for a circle */
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* turns square image into a circle */
+    border-radius: 50%;
+    /* restricts height and width on larger screens */
+    max-width: 300px;
+    max-height: 300px;
+}
 
 /* footer */
 #social-networks{ 
