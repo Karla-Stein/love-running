@@ -163,6 +163,32 @@ main{
     justify-content: center;
 }
 
+/* meet-up section */
+#times{
+    background: url(../images/dublin-city.webp) no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div{
+    /* creates contrast between bg and text */
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens below 400px wide.
+    Eac div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid meet up time divs over the bg image */
+    border: 2px solid #ffffff;
+}
+
+#times h3{
+    color: #fafafa;
+}
+
+
 /* footer */
 #social-networks{ 
     text-align: center;
