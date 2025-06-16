@@ -220,6 +220,16 @@ main{
     color: #3a3a3a;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px){
+    #photos{
+        /* allows us to determin how many columns are displayed */
+        column-count: 2;
+        /* closes the gap between images */
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px){
     nav{
@@ -275,6 +285,12 @@ main{
     text-align: end;
     align-self: flex-end;
 }
+ #photos{
+        /* allows us to determin how many columns are displayed */
+        column-count: 3;
+        /* closes the gap between images */
+        column-gap: 0;
+    }
 }
 
 /* Query for screens from 992px */
@@ -282,6 +298,12 @@ main{
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
 
+    }
+     #photos{
+        /* allows us to determin how many columns are displayed */
+        column-count: 4;
+        /* closes the gap between images */
+        column-gap: 0;
     }
  
 }
