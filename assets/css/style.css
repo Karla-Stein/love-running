@@ -191,6 +191,18 @@ main{
     color: #fafafa;
 }
 
+/*  Gallery Page */
+
+/* Takes care of overflow */
+#photos img{
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos{
+    /* prevents line between pictures */
+    line-height: 0;
+}
 
 /* footer */
 #social-networks{ 
