@@ -299,6 +299,7 @@ main{
         border-bottom: 1px solid #3a3a3a;
 
     }
+    /* Gallery */
      #photos{
         /* allows us to determin how many columns are displayed */
         column-count: 4;
