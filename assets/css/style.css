@@ -23,7 +23,10 @@ h1, h2, h3{
     letter-spacing: 2px;
     color: #252525;
 }
-
+/* Hides header for user but not search engiens */
+.hidden-heading{
+    display: none;
+}
 
 /* header bg color */
 header{
